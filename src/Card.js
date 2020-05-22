@@ -3,7 +3,7 @@ import './Card.css'
 export default class Card extends Component {
     render() {
         let cardStyle = null;
-
+       
         switch(this.props.title){
             case 'CLUBS':
                cardStyle = 'card-position-1'

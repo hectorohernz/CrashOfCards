@@ -59,7 +59,9 @@ export default class Cardlist extends Component {
 
     render() { 
         let gameStatus = this.state.cardLeft === 0 ? (
-                <button onClick={this.resetGame} className="gameover-btn">Play Again</button>
+                <div className="gameover-container">
+                      <button onClick={this.resetGame} className="gameover-btn">Play Again</button>
+                </div>
             ): ( 
                     <button className="gameboard-btn" onClick={this.addCard}>Deal Me A Card</button>
             );
