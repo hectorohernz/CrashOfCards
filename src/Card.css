@@ -144,18 +144,16 @@ button{
   .card-image{
       height: 220px;
       position: absolute;
-      left: 140px;
+      left: 30%;
+      transform: translateX(-30%);
       animation-name: keyMove;
       animation-duration: 1s;
   }
 
   @keyframes keyMove{
     from {left: -300px;}
-    to {left: 140px;}
+    to { left: 30%;}
   }
-
-
-
 
     .card-position-1{
         transform: rotate(6deg);
@@ -230,4 +228,38 @@ button{
     border:none;
     font-size: 30px;
     font-weight: 600;
+}
+
+@media screen and (min-width: 800px) {
+  .card-image{
+    height: 220px;
+    position: absolute;
+    left: 45%;
+    transform: translateX(-45%);
+    animation-name: keyMove;
+    animation-duration: 1s;
+  }
+  
+  @keyframes keyMove{
+  from {left: -300px;}
+  to { left: 45%; }
+  }    
+  
+  .card-position-1{
+    transform: rotate(6deg);
+}
+.card-position-2{
+    transform: rotate(1deg);
+}
+.card-position-3{
+    transform: rotate(-7deg);
+}
+.card-position-4{
+    transform: rotate(9deg);
+}
+.card-position-5{
+    transform: rotate(3deg);
+}
+
+   
 }

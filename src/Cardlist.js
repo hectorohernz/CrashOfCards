@@ -85,7 +85,7 @@ export default class Cardlist extends Component {
                     </div>
 
                         <h2>{this.state.cardLeft}</h2>
-                </div>
+            </div>
     
             ):  
                 (<div className="intro-container">
