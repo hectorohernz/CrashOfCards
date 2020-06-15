@@ -2,7 +2,7 @@
 
 Crash Of Cards is an application with the sole purpose of understanding ReactJs. The game has no purpose, otherwise Crash Of Cards is a game created with the help of https://deckofcardsapi.com/. A Deck of Cards API, which gives the game, a visual of the cards. 
 
-## Cloning the Magic Mirror Example Project
+## Cloning the Crash Of Cards Example Project
 
 - git clone https://github.com/hectorohernz/CrashOfCards.git
 - cd CrashOfCards
